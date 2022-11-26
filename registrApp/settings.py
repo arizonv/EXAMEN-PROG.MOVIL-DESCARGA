@@ -120,7 +120,7 @@ USE_TZ = True
 
 ###########          c s s     #######################################
 STATIC_URL = '/statics/'
-STATICFILES_DIRS = (os.path.join(BASE_DIR, 'app/statics'),)
+STATICFILES_DIRS = (os.path.join(BASE_DIR,'statics'),)
 
 ####################################################################
 ###########          M e d i a     #######################################
