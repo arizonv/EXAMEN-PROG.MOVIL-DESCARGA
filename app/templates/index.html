@@ -23,6 +23,7 @@
     border: 5px solid rgba(1, 80, 139, 0.247);
     cursor: pointer;
     margin: 20px 200px;
+    animation: border-flicker 3s linear forwards;
   }
 
   .container .btn .title {
@@ -37,14 +38,9 @@
   .container .btn .title span {
     color: rgb(230, 0, 120);
     text-shadow: 0 0 15px rgb(230, 0, 120);
-    animation: text-flicker 2s linear forwards;
     font-size: 35px;
-
-  }
-
-
-  .container .btn:hover {
-    animation: border-flicker 3s linear forwards;
+    animation: text-flicker 2s linear forwards;
+   
   }
 
 
