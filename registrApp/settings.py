@@ -119,12 +119,9 @@ USE_TZ = True
 
 
 ###########          c s s     #######################################
-STATIC_URL = '/static/'
+STATIC_URL = 'static/'
 
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-    '/var/www/static/',
-]
+STATICFILES_DIRS = BASE_DIR,"static"
 
 ####################################################################
 ###########          M e d i a     #######################################
